@@ -1,0 +1,52 @@
+@media (min-width:800px){
+    .parent-div {
+        margin: 20px;
+        font-family: Arial, sans-serif;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10rem;
+      }
+}
+.parent-div {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+   
+  }
+  
+  .table-div {
+    width: 100%;
+   
+    margin-top: 20px;
+    padding: 20px;
+   
+  
+  }
+.checkout-div{
+    padding:20px;
+    align-items: center;
+}
+  
+.table-div tr{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;  
+    margin-top: 10px;
+    margin-bottom: 5px;
+   
+}
+.table-div td{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+   
+}
+.table-div td button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
